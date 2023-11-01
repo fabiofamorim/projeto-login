@@ -5,6 +5,7 @@ Paleta de cores
 Verde: #49a09d
 Lilás: #5f2c82
 azul foto: #B4CBD3
+alaranjado foto: #937161
 */
 
 * {
@@ -14,7 +15,7 @@ azul foto: #B4CBD3
     box-sizing: border-box;
 }
 body, html {
-    background-color: #b4cbd336;
+    background-color: #937161;
     width: 100vw;
     height: 100vh;
 }
@@ -35,7 +36,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
-    transition: width 1s height 1s;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     display: block;
