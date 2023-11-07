@@ -28,7 +28,6 @@ section#login {
     position: absolute;    /* para que imagem fique centralizada, é necessário que o mais tenha a posição relativa e esta section# login 'absolute' e as configurações de top, left e transform translate sigam estas apresentadas */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     overflow: hidden; /* Toda a imagem que estiver sobrando é recortada, neste caso as bordas estavm sobrando e foram retiradas*/
     background-color: white;
@@ -39,11 +38,12 @@ section#login {
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem {
     display: block;
     background: #B4CBD3 url(../imagens/pexels-feyza-daştan-18823804.jpg) no-repeat;
-    height: 200px;
+    height: 190px;
     background-size: cover;
     background-position: center center;
 }
@@ -73,7 +73,6 @@ div.campo > label {
 }
 div.campo > span {
     color: white;
-    background-color: black;
     font-size: 2em;
     max-width: 40px;
     padding: 5px;
@@ -83,11 +82,11 @@ div.campo > input {
     background-color: #B4CBD3;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-10px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-10px);
 }
 div.campo > input:focus-within {
     background-color: white;

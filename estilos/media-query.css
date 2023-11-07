@@ -14,6 +14,7 @@ alaranjado foto:
     }
     section#login {
         width: 80%;
+        height: 330px;
     }
     section#login > div#imagem {
         float:left;
@@ -33,6 +34,7 @@ alaranjado foto:
     }
     section#login {
         width: 900px;
+        height: 400px;
     }
     section#login > div#imagem {
         float:right;
@@ -46,6 +48,7 @@ alaranjado foto:
         font-size: 2em;
     }
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
