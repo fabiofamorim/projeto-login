@@ -65,10 +65,32 @@ form > div.campo {
     height: 50px;
     border-radius: 5px;
     display: block;
-    margin: 5px 0px;
+    margin: 8px 0px;
+    border: 2px solid #937161;
 }
 div.campo > label {
     display: none; /* retirou o escrito de login e senha do label */
+}
+div.campo > span {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    max-width: 40px;
+    padding: 5px;
+    padding-top: 10px;
+}
+div.campo > input {
+    background-color: #B4CBD3;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-10px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+div.campo > input:focus-within {
+    background-color: white;
 }
 form > input[type=submit] {
     display: block;
